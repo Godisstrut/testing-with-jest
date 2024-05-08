@@ -23,6 +23,6 @@ test('peek on stack with strings return the top string', () => {
     stack.push("Great white");
     stack.push("Mako");
     expect(stack.peek()).toBeDefined();
-    expect(stack.peek()).toBe("apple");
+    expect(stack.peek()).toBe("Mako");
 
 });
